@@ -1,0 +1,19 @@
+apiVersion: networking.istio.io/v1alpha3
+kind: VirtualService
+metadata:
+  name: orders-project1-production-order-service
+spec:
+  hosts:
+  - "order-service.orders-project1-production.40.87.6.40.xip.io"
+  gateways:
+  - orders-project1-production-gateway
+  http:
+    - route:
+      - destination:
+          host: order-service.orders-project1-production.svc.cluster.local
+          subset: blue
+        weight: 0
+      - destination:
+          host: order-service.orders-project1-production.svc.cluster.local
+          subset: green
+        weight: 100

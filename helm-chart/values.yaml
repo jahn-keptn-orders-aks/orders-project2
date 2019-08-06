@@ -22,8 +22,8 @@ frontEndBlue:
         name: front-end
     image:
         pullPolicy: Always
-        repository: null
-        tag: null
+        repository: robjahn/keptn-orders-front-end
+        tag: 1
     replicaCount: 1
     resources:
         limits:
@@ -41,8 +41,8 @@ frontEndGreen:
         name: front-end
     image:
         pullPolicy: Always
-        repository: null
-        tag: null
+        repository: robjahn/keptn-orders-front-end
+        tag: 1
     replicaCount: 1
     resources:
         limits:

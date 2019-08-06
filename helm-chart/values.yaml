@@ -80,7 +80,7 @@ customerServiceBlue:
     image:
         pullPolicy: Always
         repository: robjahn/keptn-orders-customer-service
-        tag: 1
+        tag: 2
     replicaCount: 1
     resources:
         limits:

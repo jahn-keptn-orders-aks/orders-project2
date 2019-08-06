@@ -79,8 +79,8 @@ customerServiceBlue:
         name: customer-service
     image:
         pullPolicy: Always
-        repository: null
-        tag: null
+        repository: robjahn/keptn-orders-customer-service
+        tag: 1
     replicaCount: 1
     resources:
         limits:
@@ -98,8 +98,8 @@ customerServiceGreen:
         name: customer-service
     image:
         pullPolicy: Always
-        repository: null
-        tag: null
+        repository: robjahn/keptn-orders-customer-service
+        tag: 1
     replicaCount: 1
     resources:
         limits:

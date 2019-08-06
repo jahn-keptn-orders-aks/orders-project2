@@ -193,8 +193,8 @@ catalogServiceBlue:
         name: catalog-service
     image:
         pullPolicy: Always
-        repository: null
-        tag: null
+        repository: robjahn/keptn-orders-catalog-service
+        tag: 1
     replicaCount: 1
     resources:
         limits:
@@ -212,8 +212,8 @@ catalogServiceGreen:
         name: catalog-service
     image:
         pullPolicy: Always
-        repository: null
-        tag: null
+        repository: robjahn/keptn-orders-catalog-service
+        tag: 1
     replicaCount: 1
     resources:
         limits:
